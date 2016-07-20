@@ -1,6 +1,7 @@
 #mascot
 {
-	margin-top:-65px;
+	/*margin-top:-65px;*/
+	float:right;
 	text-align: right;
 	height: 60px;
 
