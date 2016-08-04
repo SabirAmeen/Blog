@@ -17,6 +17,7 @@
 	text-align: center;
 	background-color: black;
 	color: white;
+	
 }
 a
 {
@@ -25,8 +26,8 @@ a
 }
 #post-body
 {
-	font-family: Roboto;
-	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+		font-size: 17px;
 }
 #foot
 {
@@ -40,4 +41,24 @@ a
 {
 	display: inline-block;
 	float: right;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 450px;
+      height:400px;
+      margin: auto;
+ }
+ $('.carousel').carousel({
+  interval: 1000 * 5
+});
+ #vid
+{
+  position:relative;
+  z-index:-1;
+}
+#t
+{
+  position:absolute;
+  top:500px;
+  left:5000px;
 }
